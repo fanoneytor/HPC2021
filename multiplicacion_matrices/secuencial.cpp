@@ -11,8 +11,8 @@ void productoMatrices(int n);
 int main(int argc, char *argv[]){
 	int n;
 	//printf("Ingrese la dimension de la matriz: ");
-	//n = atoi(argv[1]);
-    n = atoi(argv[1]); //con argv recibo el numero desde consola linux.
+    //n = atoi(argv[1]); //con argv recibo el numero desde consola linux.
+	n = 2000;
 	
 	punteroMatrizA = new int*[n];
 	punteroMatrizB = new int*[n];
